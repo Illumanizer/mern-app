@@ -4,8 +4,9 @@
   "description": "Learning basics of mern",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js "
+    "start":  "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Pranav",
   "license": "ISC",
